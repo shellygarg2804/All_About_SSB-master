@@ -31,6 +31,8 @@ public class Activity_2 extends Activity {
  String size;
     @Override
 
+    //to do change
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
