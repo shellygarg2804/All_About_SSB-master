@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+<font
+    android:fontStyle="normal"
+    android:fontWeight="500"
+    android:font="@font/lobster"/>
+
+    <font
+        android:font="@font/oswald"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font
+        android:font="@font/roboto_regular"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font
+        android:font="@font/roboto"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/regular_girasol"
+          android:fontStyle="normal"
+        android:fontWeight="300">
+    </font>
+
+    <font android:fontWeight="300"
+        android:font="@font/arvo_regular" />
+
+    <font android:fontWeight="400"
+        android:font="@font/robotomono_regular"/>
+
+    <font
+        android:font="@font/inter"
+        />
+
+    <font android:font="@font/questrial"
+        />
+
+</font-family>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:padding="10dp"
+    tools:context=".Activity_2">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainlogo">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/satyamevjayate"
+
+                    ></ImageView>
+                <ImageView
+                    android:id="@+id/logo_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/logo_new"
+                    android:layout_centerHorizontal="true"
+                    />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/satyamevjayate"
+
+                    ></ImageView>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearlayout_1_large"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/layout_new"
+                android:gravity="center"
+                android:orientation="vertical"
+               android:layout_below="@id/mainlogo">
+
+                <ImageView
+                    android:id="@+id/imageview_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/question" />
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center"
+                    android:text="What's SSB?"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_2_large"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/layout_new"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:layout_toRightOf="@id/linearlayout_1_large"
+                android:layout_below="@id/mainlogo">
+
+                <ImageView
+                    android:id="@+id/imageview_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/event" />
+
+
+                <TextView
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:fontFamily="@font/inter"
+                    android:text="The Schedule"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearlayout_3_large"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/layout_new"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_below="@id/linearlayout_1_large"
+                >
+
+                <ImageView
+                    android:id="@+id/imageview_3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/base" />
+
+                <TextView
+                    android:id="@+id/infoaboutcenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center"
+                    android:text="Info About SSB Centers"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout_4_large"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@id/linearlayout_3_large"
+                android:layout_below="@id/linearlayout_2_large"
+                android:background="@drawable/layout_new"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/imageview_4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/support" />
+
+                <TextView
+                    android:id="@+id/contactus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center"
+                    android:text="Contact us"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="25dp"
+                app:adSize="BANNER"
+                app:adUnitId="ca-app-pub-9684827030039892/5788917454"
+                android:layout_below="@id/linearlayout_4_large"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="665dp">
+
+            </com.google.android.gms.ads.AdView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

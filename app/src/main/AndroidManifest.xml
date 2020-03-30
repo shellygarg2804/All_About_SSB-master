@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ssb">
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true" />
+    
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+
+
+    <application
+       android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Ssb_details">
+        </activity>
+        <activity android:name=".Olq_first_screen"></activity>
+        <activity android:name=".Contact_activity" />
+        <activity android:name=".centers.Allahabad_Slide" />
+        <activity android:name=".centers.Kapurthala_slide" />
+        <activity android:name=".Olq"></activity>
+        <activity android:name=".Info_about_centers" />
+        <activity android:name=".centers.Coiambatore_Slide" />
+        <activity android:name=".centers.Mysore_Slide" />
+        <activity android:name=".centers.Gandhinagar_Slide" />
+        <activity android:name=".centers.Varanasi_Slide" />
+        <activity android:name=".Activity_2" />
+        <activity android:name=".centers.Dehradun_Slide" />
+        <activity android:name=".centers.Bhopal_Slide" />
+        <activity android:name=".centers.Bangalore_Slide" />
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9684827030039892~9919734156"/>
+    </application>
+
+</manifest>

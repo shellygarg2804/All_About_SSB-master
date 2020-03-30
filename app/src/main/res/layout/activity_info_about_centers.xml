@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_about_centers">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/logo_new"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
+        android:src="@drawable/rsz_logo"
+
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/army_list"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/oswald"
+        android:layout_marginTop="250dp"
+        android:textColor="#2E7D32"
+        android:text="Swipe For List Of ARMY SSB Centers ->"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <HorizontalScrollView
+        android:background="@drawable/rounded_border_army"
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/army_list">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/layout_1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="60dp">
+
+                <ImageView
+                    android:id="@+id/punjab_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/golden" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/punjab_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_1"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/lobster"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/name_kapurthala"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17dp"
+                android:textStyle="normal" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/layout_2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/layout_1"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="60dp">
+
+                <ImageView
+                    android:id="@+id/allahabad_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/fortification" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/a_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_2"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/punjab_name"
+                android:layout_marginBottom="5dp"
+                android:text="S.C.EAST, \n Allahabad"
+                android:textAlignment="center"
+                android:fontFamily="@font/lobster"
+                android:textColor="#000"
+                android:textSize="17sp"
+                 />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/layout_3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/layout_2"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="60dp">
+
+                <ImageView
+                    android:id="@+id/Bhopal_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mosque_new" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/bhopal_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_3"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/a_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/bhopal_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/layout_4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/layout_3"
+                app:cardBackgroundColor="#fff"
+                app:cardCornerRadius="60dp">
+
+                <ImageView
+                    android:id="@+id/bangalore_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bangalore_icon" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/bangalore_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_4"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/bhopal_text"
+                android:fontFamily="@font/lobster"
+                android:text="@string/bangalore_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/airforce_list"
+        android:layout_below="@id/view_1"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/oswald"
+        android:textColor="#00B0FF"
+        android:text="Swipe For List Of AIR FORCE SSB Centers ->"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_2"
+        android:background="@drawable/rounded_border_airforce"
+        android:layout_below="@id/airforce_list">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="90dp"
+        android:id="@+id/layout_5"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="60dp"
+        app:cardBackgroundColor="#fff">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dehradun"
+            android:src="@drawable/ashok"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dehradun_name"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/layout_5"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/lobster"
+        android:text="@string/dehradun_name"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:textColor="#000"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_6"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_5"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mysore"
+                    android:src="@drawable/hawa_mahal"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/mysore_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_6"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/dehradun_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/mysore_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_7"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_6"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/gandhi_nagar"
+                    android:src="@drawable/fighter"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/gandhi_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_7"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/mysore_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/gandhi_nagar_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_8"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_7"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/vanarasi"
+                    android:src="@drawable/om"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/vanarasi_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_8"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/gandhi_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/varanasi_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/navy_list"
+        android:layout_below="@id/view_2"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/oswald"
+        android:textColor="#000"
+        android:text="Swipe For List Of NAVY SSB Center's ->"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_3"
+        android:background="@drawable/rounded_border_navy"
+        android:layout_marginBottom="25dp"
+        android:layout_below="@id/navy_list">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_9"
+                android:layout_height="90dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="60dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/coimbatore"
+                    android:src="@drawable/museum"/>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coimbatore_name"
+                android:textAlignment="center"
+                android:layout_below="@id/layout_9"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/coimbatore_name"
+                android:fontFamily="@font/lobster"
+                android:textSize="17sp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_10"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_9"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/bangalore_navy"
+                    android:src="@drawable/bangalore_icon"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/bangalore_navy_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_10"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/coimbatore_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/bangalore_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_11"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_10"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Bhopal_navy"
+                    android:src="@drawable/mosque_new"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/Bhopal_navy_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_11"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/bangalore_navy_name"
+                android:fontFamily="@font/lobster"
+                android:text="@string/bhopal_name"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:id="@+id/layout_12"
+                android:layout_marginTop="10dp"
+                android:layout_height="90dp"
+                app:cardCornerRadius="60dp"
+                android:layout_toRightOf="@id/layout_11"
+                android:layout_marginLeft="30dp"
+                app:cardBackgroundColor="#fff">
+
+                <ImageView
+                    android:id="@+id/vishakapatnam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignStart="@+id/layout_12"
+                    android:layout_alignTop="@+id/layout_12"
+                    android:src="@drawable/anchor" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/vishakapatnam_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_12"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toRightOf="@id/Bhopal_navy_name"
+                android:fontFamily="@font/lobster"
+                android:text="NSB \n VIZAG"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
+</ScrollView>

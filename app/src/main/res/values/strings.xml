@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">SSB</string>
+    <string name="title_activity_whats_ssb">whats_ssb</string>
+    <string name="center">Select A SSB Center</string>
+    <!--
+    Center's name
+    !-->
+    <string name="name_kapurthala">S.C.NORTH \n Punjab</string>
+    <string name="name_allahabad">S.C.EAST, Allahabad  </string>
+    <string name="bhopal_name">S.C.CENTRAL \n Bhopal</string>
+    <string name="bangalore_name">S.C.SOUTH   \n Bangalore</string>
+    <string name="dehradun_name">AFSB \n Dehradun</string>
+    <string name="mysore_name">AFSB \n Mysore</string>
+    <string name="gandhi_nagar_name"> AFSB \n Gandhi Nagar</string>
+    <string name="varanasi_name">AFSB \n Varanasi</string>
+    <string name="coimbatore_name">NSB \n Coimbatore</string>
+    <string name="army_center">ARMY</string>
+    <string name="navy_center">NAVY</string>
+    <string name="airforce_center">AIR FORCE</string>
+
+    <!-- kaputrthala !-->
+    <string name="kapurthala">SCN KAPURTHALA,PUNJAB</string>
+    <string name="hotel_nearby">Hotels Nearby</string>
+    <string name="hotel_punjab">There are no hotels in kapurthala in the vicinty of the SSB Board, The nearest accommodation available is
+    a gurudwara that\'s at walking distance from the bus stand\nThe Name Of The Gurudwara Is State Gurudwara</string>
+    <string name="info_about_ssb_center">Info About Center</string>
+    <string name="info_scn">Selection Centre North was raised on 01 Jul 2015 in its interim location at Kapurthala, \n
+                             It has two Services Selection Boards namely 31 SSB and 32 SSB. \n The motto of the centre is "NISHPAKSH, NIHSWARTH, NISSANDEH” </string>
+    <string name="places_to_visit">Places To Visit <Nearby></Nearby></string>
+    <string name="places_punjab"> 1.Moorish Mosque, Kapurthala \n 2.Pushpa Gujral Science City \n3.Shalimar Gardens\n4.Panch Mandir\n5.The city of Jalandhar Is Also A Great \n Place To Visit </string>
+    <string name="how_to_reach">How To Reach The Center</string>
+    <string name="transport_karputhala">1.Buses-buses ply in to kaputhala from nearby major cities \n2.Trains- The city is well connected by \nTrains \n3.Flights-The nearest Airport is Sri \nGuru Ram Dass Jee International Airport in Amritsar</string>
+
+    <!-- Allahad SSB !-->
+    <string name="hotels_allahabad">   1.Hotel Kanha Shyam \n 2.Hotel UR, Stanley Rd \n 3.Arjun Hotel, Allahabad Junction \n 4.Hotel Vineet, Johnstonganj \n
+    5.Hotel Vilas, Circuit House</string>
+    <string name="contact_allahabad">Address: Cariappa Rd, Canton, Civil Lines, Prayagraj, Uttar Pradesh 211001 \n
+        Phone Number: 0532-2422680, 0532-2422688, 0532-2296987 \n Fax – 0532-2424815 \n
+        E-mail: sce-ald-army@nic.in</string>
+    <string name="places_allahabad">1.Prayagraj Fort \n 2.All Saints Cathedral \n 3.Khusro Bagh Allahabad Prayagraj \n 4.St. Patrick Catholic Church</string>
+    <string name="info_allahabad">SCE has got five boards of Indian Army, which are 11 SSB,14 SSB,18 SSB,19 SSB and 34 SSB. SCE has got a good atmosphere with all modern facilities like \nSTD, Mess, Olive Green Restaurant, outdoor and indoor games, medical facilities, good dormitories, facilities of waterman etc. There is ATM in the vicinity as well.\nCandidates who have applied for CDSE, NDA, 10+2 Teach Entry of Army, SSC-Tech and TGC etc. can get this selection center.</string>
+    <string name="transport_allahabad">In order to report for the SSB,\n one has to report at the railway station itself in front of MCO</string>
+    <string name="contact_name">Contact Details</string>
+
+    <!-- Bhopal SSB !-->
+    <string name="info_bhopal">Selection Centre Bhopal was established in October 1975 and it is located in the area of Sultania Infantry Lines, Bhopal Military Station.\n It has three Services Selection Boards namely 20 SSB, 21 SSB and 22SSB.</string>
+    <string name="transport_bhopal">Distance from the nearest railway station-\n The centrer is approximately 4.8 kms from Bhopal Junction railway station</string>
+    <string name="place_bhopal">1.Upper Lake: The largest artificial lake in Asia. \n The Boat Club is also located there and national level water sporting events are organized by the club.
+    \n 2.Van Vihar National Park: A zoological park with the status of a national park, it is situated south of the Upper Lake. \n 3.Takri: A hindu and jain temple, situated on a hill cliff, \n this place is popular for the scenic views it offers of the city below.</string>
+    <string name="hotels_bhopal">1. Hotel Naina Palace \n 2.Hotel Prakash INN \n 3. Hotel PR Plaza \n 4.Hotel Prime \n 5.Hotel Panchwati</string>
+    <string name="contact_bhopal">Address: Jaipur-Guna Road Chandukheri, Bhopal, Madhya Pradesh 462001\n Phone Number: 0755–2731245, 0755–2731255, 0755–2702223 \nFax – 0755–2735980 \nEmail: selectioncentrebhopal@gmail.com</string>
+
+    <!-- Bangalore SSB !-->
+    <string name="info_bangalore">This is a centre for both Army and Navy officer Selection. It has got two boards for Army, 17 SSB and 24 SSB and one board for Navy that is 12 SSB. SCS is equipped with good facilities to make a comfortable and memorable stay for the candidates. It has got Indoor and out games, excellent dormitories, mess, canteen, CSD facility, Telephone, Internet, Reading, TV etc.</string>
+    <string name="transport_bangalore">There are numerous trains connecting Bangalore with the rest of India. There is train service available from the Bangalore station to other parts of India. By road Bangalore is connected to Pune, Mysore etc. The Bus stand is called Majestic.
+     There are flights connecting Bangalore to other parts of Indian as well. The Bengaluru International Airport is the Airport for Bangalore.</string>
+    <string name="hotels_bangalore">Since the reporting point for the candidates is the Railway station hence it is advised to them to stay near the railway station.\n
+    1.Hotel Shangrila \n 2.Hotel Select \n 3.Star Deluxe Lounge</string>
+    <string name="places_bangalore">1.Jawaharlal Nehru Planetarium \n 2.Visvesvaraya Museum \n 3.Cubbon Park</string>
+    <string name="contact_bangalore">Address-Cubbon Road, Bangalore – 560042 \n Fax – 080-25587883/25594954 \n Phone – 080-25591075 Extn 6804, 9916322971/9480948061
+     \n E-Mail – bloressb@rediffmail.com \n Reporting Point – Bangalore City Railway Station.</string>
+
+    <!-- Dehradun SSB !-->
+    <string name="info_dehradun">AFSB situated in the capital city of Uttarakhand, Dehradun.\n Dehradun is in the Doon Valley on the foothills of the Himalayas nestled between two of India’s mightiest rivers — the Ganges on the east and the Yamuna on the west. \n It is located in the Clement Town area of Dehradun.\n SSB interviews for AFCAT, CDSE, and NDA etc. are conducted in this center. </string>
+    <string name="transport_dehradun">Dehradun is well connected by Rail, Road and Air with major cities like Delhi, Varanasi, Mumbai, Kolkata etc.\n The rail connects Dehradun to major parts of India.\n The bus terminal ISBT connects it to nearby major cities by bus.\n Various private and national carrier airlines provide flights to Dehradun; the airport is named Jolly Grant.</string>
+    <string name="hotels_dehradun">1.Tinaya Paradise Home Stay \n2. Drona Guest House \n3.Hotel Benison Guest House \n4.Oyo 45749 Doon Devil’s</string>
+    <string name="places_dehradun">1.Indian Military Academy \n2.Forest Research Institute, \n3.Buddha Monastery</string>
+    <string name="contact_dehradun">AFSB Centre Dehradun Contact Details\n 1 AFSB Clement Town Dehradun- 248002\n Phone Number: 0135 – 2642269 \nFax: 0135 – 2640104
+</string>
+
+    <!-- Myosre SSB !-->
+    <string name="info_mysore">2AFSB or Air Force Selection Board is located in CV Complex, Sidharth Nagar of Mysore. \nThe SSB interviews for AFCAT, NDA, CDSE are conducted here,\nalso the PABT test for IAF choice candidates who have their SSB in Selection Center South, Bangalore are conducted here.
+    </string>
+    <string name="transport_mysore">Mysore depends mainly on rail and bus transport for inter-city connections. \nIt also has an Airport which served the city, also known as Mandakalli Airport, \nwhich is now closed hence closest airport is the Bengaluru Airport. \nThere are trains connecting Mysore to major parts of India
+    </string>
+    <string name="hotels_mysore">1. Hotel Kaveri Palace \n2. Raj Residency \n3.Hotel Shastri Paradise \n4.The Mansion 1907</string>
+    <string name="places_mysore">1. Jaganmohan palace \n2. Railway Museum Mysore \n3.Mysore Zoo</string>
+    <string name="contact_mysore">AFSB Centre Mysore Contact Details\n 2 AFSB CV Complex, Sidharth Nagar PO,Mysore – 11 \nPhone Number: 0821 – 2526621 \nFax:   0821 – 2502836</string>
+
+    <!--Ahemadabad SSB !-->
+    <string name="info_ahemdabad">The 3 Air Force Selection Board is the most newly inaugurated AFSB, inaugurated in 2012. \n3 AFSB is located in Sector 9 of Gandhinagar which is also the headquarter of South Western Air Command of Indian Air Force.\nGandhinagar is the capital city of Gujrat.</string>
+    <string name="transport_ahemdabad">Candidates have to report at Ahmedabad Railway Station; hence they have to reach Ahmedabad, 30 KM away from Gandhinagar.\nAhmedabad is well connected with rail, road and air with major cities of India. \nIf you are planning to go by air Sardar Vallabhbhai Patel International Airport is the place where you get down. \nThe airport is 8kms away from Ahmedabad railway station. There are frequent flights from and to the airport across India.</string>
+    <string name="hotels_ahemdabad">1.Hotel Vivan \n2.OYO 2156 Hotel Isher International</string>
+    <string name="places_ahemdabad">1. Akshardam Temple \n2.Adalaj Stepwell \n3.Sarita Udyan</string>
+    <string name="contact_ahemdabad">AFSB Centre Gandhinagar Contact Details \n 3 AFSB HQ SWAC,AF Sector 9, Gandhinagar \n Phone Number: 079 – 23242600 Extension 5754
+</string>
+
+    <!-- Varanasi SSB !-->
+    <string name="info_vanarasi">1.	4 AFSB is situated in the Varanasi Cant. area.\n The board conducts interview for entries of NDA, AFCAT, CDSE etc.</string>
+    <string name="transport_vanarasi">You can reach Varanasi by air, road or rail. \nIt is connected with all major cities of India by Rail and Air and all nearby cities with road. \nThe Bus stand is located just near the Railways Station. \nThe airport for Varanasi is the Lal Bahadur Shastri International airport. \nDistance from the nearest railway station- The center is approximately 2 kms from Varanasi railway station in cantonment area</string>
+    <string name="hotels_vanarasi">1. Goldy Guest House \n2. Ganga Atihi Greha</string>
+    <string name="places_vanarasi">Varanasi is also known as the city of temples and ghats. \nYou can visit ample temples there like Kashi Vishwanath temple, Birla Vishwanath temple, Durga Temple and Sankat Mochan Temple. \nYou can visit Banaras Hindu University to see the diversity as it is one of the esteemed universities in the country.</string>
+    <string name="contact_vanarasi">AFSB Centre Varanasi Contact Details \n4 AFSB ,Varanasi Cantt, Varanasi – 221002 \nPhone Number: 0542 – 2503853 Extension 213\n Fax: 0542 – 2502836
+</string>
+
+    <!-- Coimbatore SSB !-->
+    <string name="info_coimbatore">NSB is situated in the INS Agrani, Red fields of Coimbatore, a city of Tamil Nadu. \nThis board is meant to take SSB Interview for the candidates opting for Indian Navy. \nGenerally the candidates for 10+2 Cadet Entry for Navy are called for SSB interview in NSB.</string>
+    <string name="transport_coimbatore">Coimbatore is well connected by all the three means of transport with other parts of India. \nBroad gauge trains connect Coimbatore to all parts of India and Tamil Nadu. \nThe Reporting Point is The Railway Station Itself, still if you reach late the board Is not that much far away and you can easily reach there using auto-rickshaw or any other means. \nDistance from the nearest railway station- The center is approximately 3.9 kms from Coimbatore junction railway station.</string>
+    <string name="hotels_coimbatore">In order to find a place to stay, as soon as one gets off at the railway station there’s a street infront of the station’s main gate,\n the street is filed of hotels and it’s advisable to go there and book at the same instant itself.</string>
+    <string name="places_coimbatore">1. GD Naidu Museum \n2. Brookefields Mall \n3. Black Thunder</string>
+    <string name="contact_coimbatore"> NSB Coimbatore
+The President, Naval Selection Board \n INS Agrani Red Fields, Coimbatore-641018\nToll Free-1800-425-4599\n Fax No- 0422-2325957
+</string>
+    <string name="intro_ssb"> Services Selection Board is an organization that assesses the candidates for becoming officers into the Indian Armed Forces.
+        \nIndian Armed Forces look for extra odinary Gentlemen\'s that will lead the forces in the Time to come.
+    In the process of SSB a candidate is tested upon some predefined parameters known as OLQ\'s (Officer Like Qualities) \n
+    The list of the Same is- \n1. Effective Intelligence \n2.Reasoning ability \n3. Organising ability\n4. Power of expression\n5. Social adaptability\n6. Cooperation\n7. Sense of Responsibility
+    \n8. Initiative\n9.Self confidence\n10. Speed of decision \n11.Ability to influence the group \n12.Liveliness \n13.Determination \n14. Courage
+    \n15.Stamina</string>
+
+    <!-- olQ's !-->
+    <string name="olq_1">1. Effective Intelligence</string>
+    <string name="olq_2">2. Reasoning ability</string>
+    <string name="olq_3">3. Organising ability</string>
+    <string name="olq_4">4. Power of expression</string>
+    <string name="olq_5">5. Social adaptability</string>
+    <string name="olq_6">6. Cooperation</string>
+    <string name="olq_7">7. Sense of Responsibility</string>
+    <string name="olq_8">8. Initiative</string>
+    <string name="olq_9">9. Self confidence</string>
+    <string name="olq_10">10. Speed of decision</string>
+    <string name="olq_11">11. Ability to influence the group</string>
+    <string name="olq_12">12. Liveliness</string>
+    <string name="olq_13">13. Determination</string>
+    <string name="olq_14">14. Courage</string>
+    <string name="olq_15">15. Stamina</string>
+
+    <string name="desc_1">Is the intelligence utilized in coping with practical situations of varying complexity. It is different from basic intelligence which is the capacity to perceive relations or to do abstract thinking. Basic intelligence is assessed by the use of intelligence tests may be verbal or non verbal effective intelligence.</string>
+    <string name="desc_2">The ability to grasp the essentials well and to arrive at conclusions by rational and logical thinking. It includes receptivity, inquiring attitude, logical reasoning and seeing essentials of a problem.</string>
+    <string name="desc_3">The ability to arrange the resources in a systematic way so as to produce effective results. It can also be defined as the ability to put to the best use of the available means for attainment of a desired objective.</string>
+    <string name="desc_4">This is the most important tools of personality where his/her ability to put across ideas adequately with ease and clarity are assessed.</string>
+    <string name="desc_5">The ability of an individual to adapt himself to the social environment and adjust well with persons and social groups, with special reference to superiors, equal and subordinates. Social adaptability includes social intelligence, attitude towards others, tact, and adaptability</string>
+    <string name="desc_6">The attitude of an individual to participate willingly in harmony with others in a group, in achieving the group goal. This implies a belief in the collective effort being more productive than the individual effort. Cooperation includes the element of joint effort and team spirit.Team spirit indicates loyalty to the aims and objects of the group to the extent of subordinating individual aim to the group aim.</string>
+    <string name="desc_7"> It enable a person to be dependable and to willingly discharge his obligation. It includes sense of duty but is much more comprehensive in meaning and scope. A thorough understanding of the values of duty, social standard, and of what is required of an individual and then to give it his energy and attention of his own accord.</string>
+    <string name="desc_8">The ability to originate purposeful action. It has the following aspects:- (a) Ability to take the first steps in an unfamiliar situation. (b) In the right direction. © Sustain it, till the goal is achieved.
+Persons with higher initiative display plenty of originality in thoughts and actions. Persons with positive initiative never get stuck, they are pushing, enterprising , persistent and will come out with numerous fresh idea.</string>
+    <string name="desc_9">It is the faith in one’s ability to meet stressful situations particularly those that are unfamiliar.</string>
+    <string name="desc_10"><![CDATA[The ability to arrive at workable decisions expeditiously. It comprises:- (a) Then appropriateness and cost effectiveness. (b) Feasibility and practicability. © The quickness in arriving at the decision.]]></string>
+    <string name="desc_11">The ability which enables an individual to bring about willing effort from the group for achieving the objective desired by him. This influence is the prime cause of cooperative and willing effort of a group towards the achievement of a set objective.
+Persons with this quality are highly inspiring with magnetic charm, in dispensable, impressionable, assertive, persuasive, firm and have considerable capacity to over come opposition.</string>
+    <string name="desc_12">The capacity of an individual to keep himself buoyant when meeting problems and bring about a cheerful atmosphere.</string>
+    <string name="desc_13">A sustained effort to achieve objectives in sprite of obstacles and setbacks. It implies fixedness of purpose: mental concentration and strength of will.
+    </string>
+    <string name="desc_14"><![CDATA[The ability to appreciate and take purposive risks willingly. It includes:- (a) Ability to meet appreciated dangers (b) Spirit of adventure, and enterprising spirit and a willingness to dare or risk a hazard © Capacity to keep oneself composed in adverse situations enabling to be steady in facing and handling such situations.
+They are doubtless risk takers, daring, aggressive, creative, bold and plucky with tremendous physical and moral courage.]]></string>
+    <string name="desc_15"> The capacity to withstand protracted physical and mental strain. It emphasizes endurance.
+Such persons possess herculean physical and mental capabilities and can withstand plenty of physical and mental stress. They are indefatigable, calm and are very tough individuals.</string>
+
+
+    <!-- details about ssb !-->
+    <string name="first_day">First Day</string>
+    <string name="second_day">Second Day</string>
+    <string name="third_day">Third Day</string>
+    <string name="fourth_day">Fourth Day</string>
+    <string name="fifth_day">Fifth Day</string>
+
+    <string name="info_first">During the first day of SSB interview only psychological tests are conducted. Following tests are conducted during the first day of five day SSB interview.
+        \n 1.Intelligence Test \n 2.Picture Perception and Description Test (PPDT) \n 3.Announcement of screened out candidates \n 4.Filling up of Personal Information Questionnaire (PIQ) forms for screened in candidates</string>
+
+    <string name="info_second">Following tests are conducted during the second day of SSB interviews.
+        \n 1.Word Association Test (WAT) \n 2.Thematic Apperception Test (TAT) \n 3.Situation Reaction Test (SRT)\n 4.Self Description Test</string>
+
+    <string name="info_third">Following tests are conducted on the third day.
+        \n 1.Group Discussion test\n 2.Military Planning Exercise (MPE)\n 3.Lecturettes\n 4.Progressive Group Task (PGT)\n 5.Intergroup Obstacle race or Snake race\n 6.Half Group Task
+        \n 7.Command Task \n 8.Personal interview for some of the candidates by president</string>
+
+    <string name="info_fourth">Following tests are conducted during the fourth day of SSB interviews.
+     \n 1.Final Group Task (FGT)\n 2.Individual Obstacles\n 3.Interview for remaining candidates</string>
+
+    <string name="info_fifth">On fifth day, only final board conference is conducted and the results are announced by SSB board officials. Thus the following events and tests will be there on fifth day of SSB interview.
+        \n 1.Conference\n 2.Announcement of recommended candidates
+       \n Once the names of Recommended candidates are announced,they are retained for further processes and filling of forms.Rest all candidates are dropped off to the nearest railway or bus station.</string>
+    <string name="swipe_left">Swipe Left For More Items</string>
+    <string name="info_about_ssb_centers">Info About SSB Centers</string>
+
+
+    <!--
+    <string name="det_1">On the day of reporting, the candidates are supposed to go through document verification and then chest numbers are given. Then the candidates are divided into groups whose size depends on the number of total candidates present.
+      Then the process of travel allowance filing takes place, the candidates appearing for the first time are given a form to fill.
+      After the completion of this process, candidates are taken in groups for the O.I.R. test (Officers Intelligence Rating) that consists of basic logical and mathematical questions.
+      Then the P.P.D.T. (Picture Perception Description Test) takes place, as the name suggests the candidates are supposed to frame a suitable and sound story around the image shown to them in around 2.5 mins.
+      There are few points to keep in mind while framing the story,
+      one is supposed to mention the age, gender, and mood of the characters around which the story is framed.
+      Generally, the image shown has low quality as it is black and white, so it depends on the candidate in which way he wants to frame the story.
+      The story has to be a positive one, avoid using negative words or actions i.e. death, theft, etc.
+        Even if the story has a negative starting, the end should be positive.
+       Once the time limit is over, the sheets of candidates are taken by the staff of the board, then the candidates are taken for group discussion,
+          Generally, the room has 3 officers, firstly the G.T.O(Group Task Officer), Psychologist, and Interviewing officer.
+        Every candidate is supposed to recite their story in about 1 min, or until the officer doesn\'t ask him to stop, as soon as everyone has finished with their stories, the group of candidates needs to come to a common conclusion about the number of characters, age, and mood, The common story is to be framed and one of the candidates is supposed to recite it to the panel of officers.
+       /n After a bit of wait, until all the groups are finished with G.D., An officer from the panel walks up with a list in his hand, He gives a motivational speech for those who didn\'t make it and it\
+        \'s followed by recitation of chest numbers of screened in candidates.
+      The screened-in candidates are given new chest numbers and screened out candidates are dropped off to the railway station.
+ </string>  !-->
+
+</resources>
